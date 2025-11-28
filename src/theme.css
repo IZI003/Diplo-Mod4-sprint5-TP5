@@ -1,0 +1,41 @@
+/* Estilos para modo claro (default) */
+:root {
+  /* Modo claro (por defecto) */
+  --bg-color: #ffffff;
+  --text-color: #111111;
+  --card-bg: #ebe7e7;
+  --accent-color: #4f46e5; /* Indigo */
+  --hover: #beafaf;
+}
+
+.dark {
+  /* Modo oscuro */
+  --bg-color: #111827;
+  --text-color: #f3f4f6;
+  --card-bg: #1f2937;
+  --accent-color: #6366f1;
+  --hover:#e0e0e0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+button {
+  background-color: var(--accent-color);
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}

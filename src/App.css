@@ -1,0 +1,36 @@
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f5f8f7; /* o la clase bg-background-light en el html */
+  color: black;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: black;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+:root {
+--primary: #019863;
+--bg-light: #f5f8f7;
+--bg-dark: #0f231c;
+}
+
+
+body {
+font-family: 'Spline Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
